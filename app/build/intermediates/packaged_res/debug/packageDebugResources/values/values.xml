@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_teal">#00C9A7</color>
+    <color name="bg_dark">#0D1B2A</color>
+    <color name="surface_variant">#1A8BADB9</color>
+    <color name="text_secondary">#8BADB9</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="accessibility_service_description">IntentLock intercepts phone unlocks and predicts your next app using AI, helping you stay focused.</string>
+    <string name="app_name">IntentLock</string>
+    <string name="btn_finish">Finish Setup</string>
+    <string name="btn_grant">Grant Permission</string>
+    <string name="btn_next">Next</string>
+    <string name="onboarding_desc_accessibility">IntentLock detects unlocks using Android\'s Accessibility Service. Tap Grant, find IntentLock, and toggle it on.</string>
+    <string name="onboarding_desc_overlay">IntentLock shows a prediction overlay when you unlock your phone. Tap Grant, then enable IntentLock in the list.</string>
+    <string name="onboarding_desc_usage">IntentLock reads your recent app usage to improve predictions. Tap Grant, find IntentLock, and enable it.</string>
+    <string name="onboarding_title_accessibility">Enable Accessibility Service</string>
+    <string name="onboarding_title_overlay">Allow Display Over Other Apps</string>
+    <string name="onboarding_title_usage">Allow Usage Access</string>
+    <string name="setup_complete">Setup Complete!</string>
+    <string name="setup_complete_desc">IntentLock is now active. Lock your phone and unlock it to see the prediction overlay.</string>
+    <style name="Theme.IntentLock" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#00C9A7</item>
+        <item name="colorPrimaryVariant">#0D1B2A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#8BADB9</item>
+        <item name="android:statusBarColor">#0D1B2A</item>
+        <item name="android:navigationBarColor">#0D1B2A</item>
+        <item name="android:windowBackground">#0D1B2A</item>
+    </style>
+    <style name="Theme.IntentLock.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.IntentLock.Overlay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

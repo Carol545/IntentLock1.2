@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.intentlock.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+12-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:6:5-85
+12-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:6:22-82
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:7:22-75
+14    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+14-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:8:5-9:47
+14-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:8:22-75
+15    <uses-permission android:name="android.permission.READ_CALENDAR" />
+15-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:10:5-72
+15-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:10:22-69
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:11:5-67
+16-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:12:5-71
+17-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:12:22-68
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:13:5-77
+18-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:13:22-74
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\5c45041a2e4203e19b5818bf35ad8391\workspace\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.intentlock.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\5c45041a2e4203e19b5818bf35ad8391\workspace\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\5c45041a2e4203e19b5818bf35ad8391\workspace\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.intentlock.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\5c45041a2e4203e19b5818bf35ad8391\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\5c45041a2e4203e19b5818bf35ad8391\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:15:5-58:19
+27        android:allowBackup="true"
+27-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.12.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\5c45041a2e4203e19b5818bf35ad8391\workspace\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:18:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:19:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:20:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.IntentLock" >
+36-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:21:9-48
+37
+38        <!-- Main entry point -->
+39        <activity
+39-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:24:9-32:20
+40            android:name="com.intentlock.app.MainActivity"
+40-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:25:13-41
+41            android:exported="true"
+41-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:26:13-36
+42            android:launchMode="singleTop" >
+42-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:27:13-43
+43            <intent-filter>
+43-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:28:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:29:17-69
+44-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <!-- Onboarding -->
+51        <activity
+51-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:35:9-37:40
+52            android:name="com.intentlock.app.OnboardingActivity"
+52-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:36:13-47
+53            android:exported="false" />
+53-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:37:13-37
+54
+55        <!-- AccessibilityService — unlock interceptor -->
+56        <service
+56-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:40:9-51:19
+57            android:name="com.intentlock.app.service.IntentLockService"
+57-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:41:13-54
+58            android:exported="true"
+58-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:42:13-36
+59            android:label="IntentLock"
+59-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:43:13-39
+60            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+60-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:44:13-79
+61            <intent-filter>
+61-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:45:13-47:29
+62                <action android:name="android.accessibilityservice.AccessibilityService" />
+62-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:46:17-92
+62-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:46:25-89
+63            </intent-filter>
+64
+65            <meta-data
+65-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:48:13-50:72
+66                android:name="android.accessibilityservice"
+66-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:49:17-60
+67                android:resource="@xml/accessibility_service_config" />
+67-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:50:17-69
+68        </service>
+69
+70        <!-- Overlay service -->
+71        <service
+71-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:54:9-56:40
+72            android:name="com.intentlock.app.service.OverlayService"
+72-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:55:13-51
+73            android:exported="false" />
+73-->C:\Users\md24b\OneDrive\Desktop\IntentLock\app\src\main\AndroidManifest.xml:56:13-37
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.intentlock.app.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\32fa2b6032c48f570254756841411555\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\7b3fc93ecc013d76df8f95e8919f35f8\workspace\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\7b3fc93ecc013d76df8f95e8919f35f8\workspace\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\7b3fc93ecc013d76df8f95e8919f35f8\workspace\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <service
+90-->[androidx.room:room-runtime:2.6.1] C:\Users\md24b\.gradle\caches\9.3.0\transforms\38cb42c22e212a4358dc354a5acb49b0\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+91            android:name="androidx.room.MultiInstanceInvalidationService"
+91-->[androidx.room:room-runtime:2.6.1] C:\Users\md24b\.gradle\caches\9.3.0\transforms\38cb42c22e212a4358dc354a5acb49b0\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+92            android:directBootAware="true"
+92-->[androidx.room:room-runtime:2.6.1] C:\Users\md24b\.gradle\caches\9.3.0\transforms\38cb42c22e212a4358dc354a5acb49b0\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+93            android:exported="false" />
+93-->[androidx.room:room-runtime:2.6.1] C:\Users\md24b\.gradle\caches\9.3.0\transforms\38cb42c22e212a4358dc354a5acb49b0\workspace\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\md24b\.gradle\caches\9.3.0\transforms\c703118d190c749eb5605febd331e6d3\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-mergeDebugResources-37:\\layout\\item_prediction.xml",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\item_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-mergeDebugResources-37:\\layout\\item_app_grid.xml",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\item_app_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-mergeDebugResources-37:\\layout\\item_schedule.xml",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\item_schedule.xml"
+    },
+    {
+        "merged": "com.intentlock.app-mergeDebugResources-37:/layout/overlay_intentlock.xml",
+        "source": "com.intentlock.app-main-40:/layout/overlay_intentlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-mergeDebugResources-37:\\layout\\overlay_intentlock.xml",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\overlay_intentlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-mergeDebugResources-37:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\activity_onboarding.xml"
+    }
+]

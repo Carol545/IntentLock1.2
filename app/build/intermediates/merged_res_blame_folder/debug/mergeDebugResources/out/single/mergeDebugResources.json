@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\layout_item_prediction.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\item_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\drawable_overlay_bg.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\drawable\\overlay_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\layout_activity_onboarding.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\layout_item_schedule.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\item_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\layout_item_app_grid.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\item_app_grid.xml"
+    },
+    {
+        "merged": "com.intentlock.app-debug-38:/layout_overlay_intentlock.xml.flat",
+        "source": "com.intentlock.app-main-40:/layout/overlay_intentlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\drawable_circle_button_bg.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\drawable\\circle_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\layout_overlay_intentlock.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\overlay_intentlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-debug-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\md24b\\.gradle\\daemon\\9.3.0\\com.intentlock.app-main-40:\\layout\\activity_main.xml"
+    }
+]

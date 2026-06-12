@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F20D1B2A">
+
+    <!-- Prediction UI for OverlayService -->
+    <LinearLayout
+        android:id="@+id/layoutPrediction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/ivAppIcon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvConfidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_teal"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            android:layout_marginTop="32dp" />
+
+        <Button
+            android:id="@+id/btnNotThis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not this"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="@color/surface_variant"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/btnMic"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:src="@android:drawable/ic_btn_speak_now"
+            android:background="@drawable/circle_button_bg"
+            android:tint="@color/white" />
+    </LinearLayout>
+
+    <!-- Quick Pick Grid for OverlayService -->
+    <GridLayout
+        android:id="@+id/layoutQuickPick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:visibility="gone"
+        android:padding="24dp" />
+
+    <!-- Legacy Selection UI for OverlayActivity -->
+    <LinearLayout
+        android:id="@+id/layoutMainSelection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What's your intent?"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select an app to continue."
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:id="@+id/containerPredictions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="32dp" />
+
+        <Button
+            android:id="@+id/btnBrowseAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browse All Apps"
+            android:backgroundTint="@color/surface_variant"
+            android:textColor="@color/accent_teal"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <!-- Shared Dismiss Button -->
+    <ImageButton
+        android:id="@+id/btnDismiss"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="@drawable/circle_button_bg"
+        android:tint="@color/text_secondary" />
+
+    <!-- All Apps Grid -->
+    <LinearLayout
+        android:id="@+id/layoutAllApps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bg_dark"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/btnBackFromAll"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_menu_revert"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Applications"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridAllApps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:numColumns="4"
+            android:verticalSpacing="16dp"
+            android:horizontalSpacing="16dp"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+</FrameLayout>
